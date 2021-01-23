@@ -16,10 +16,10 @@
 
 #nav img {
     border: 1px gray solid;
-    max-width: 344px;
     display: block;
     margin: auto;
     padding: 0%;
+    width: 100%;
 }
 
 #nav ul {
@@ -29,6 +29,7 @@
     list-style: none;
     text-align: center;
     background-image: url("./requires/banners/phone/fondo_menu_movil.jpg") ;
+    background-size: 100% 100%;
 }
 
 
