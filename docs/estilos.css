@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    html {
+    
+    font-size: 62.5%;
+    
+    }
+
+.class {
+    border: 2px red solid;
+}
+
+#nav img {
+    border: 1px gray solid;
+    max-width: 344px;
+    display: block;
+    margin: auto;
+    padding: 0%;
+}
+
+#nav ul {
+    border: 1px gray solid;
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    background-image: url("./requires/banners/phone/fondo_menu_movil.jpg") ;
+}
+
+
+#nav ul li img {
+    margin: 8px auto;
+    max-width: 122px;
+    max-height: 24px;
+}
+
+#nav ul li:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+
+#nav li a{
+    color: white;
+}
+
+
+.catalogo div {
+    padding: 20px;
+    background-image: url("./requires/pattern.jpg");
+    background-size: 50%;
+}
+
+figure {
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    padding: 0px;
+    margin: 10% 4%;
+    border: 4px rgb(15, 102, 131) solid;
+}
+
+figure img {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    border-top: 4px rgb(15, 102, 131) solid;
+    text-align: center;
+    color: white;
+}
