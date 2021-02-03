@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 10px 20px;
+}
+section {
+}
+
+figure {
+    vertical-align: auto;
+    
+}
+
+figure img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
