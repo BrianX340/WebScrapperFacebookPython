@@ -4,15 +4,15 @@
     padding: 0;
 }
 
+body {
+    background-color: #dbdbdb;
+}
+
 
 header {
     padding: 10px 20px;
 }
 
-figure {
-    vertical-align: auto;
-    
-}
 
 figure img {
     margin: auto;
@@ -39,15 +39,56 @@ figure img {
     align-items: center;
 }
 
-.menu-main a:hover{
-    background: rgba(0,0,0, .1);
+.cuerpo {
+    margin-bottom: 20px;
+    border: 2px #bfc071 solid;
+    background-color: white;
 }
 
-.menu-main a.active{
-    background-color: #353535;
+.cuerpo section {
+
+    margin: auto;
+    text-transform: none;
+    width: 90%;
 }
 
-@media (max-width: 768px) {
+.cuerpo section h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cuerpo section p {
+    padding-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.footer {
+    background-color: #bfc071;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.footer figure {
+    width: 100%;
+}
+
+.footer figure a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer figure a img {
+    margin: auto;
+    padding: 0;
+    width: 40px;
+}
+
+@media (min-width: 0px) {
     
     .menu-main{
         height: auto;
@@ -59,5 +100,7 @@ figure img {
         height: 30px;
         border-bottom: 1px solid #353535;
     }
+
+
 
 }
