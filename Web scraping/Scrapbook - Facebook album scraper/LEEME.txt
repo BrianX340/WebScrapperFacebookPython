@@ -1,0 +1,7 @@
+Pide ingresar el usuario y la clave de facebook
+el objetivo debe ser amigo del usuario
+o debe tener el album publico
+
+El scraper tiene sus fallas pero es efectivo
+si no funciona seguro modificando algunas cosas
+sirva para otras funcionalidades.
